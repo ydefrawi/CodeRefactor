@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    padding: 50px
+    padding: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
@@ -17,10 +17,10 @@ body {
 
 h1 {
     padding: 50px;
+    text-align: left;
 }
 
 li {
-    display:flex;
     display:inline;
     justify-content: right;
 
@@ -29,7 +29,7 @@ li {
 ul {
     text-align:right;
     margin-bottom: 20;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
@@ -37,7 +37,6 @@ ul {
 .header h1 {
     display: inline;
     font-size: 48px;
-    vertical-align: 10px;
 }
 
 .header h1 .seo {
@@ -208,13 +207,13 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer {
     font-size: 20px;
 }
